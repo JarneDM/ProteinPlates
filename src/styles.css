@@ -52,8 +52,7 @@ main {
   background-color: red;
   height: 40rem;
   width: 100%;
-  display: flex;
-  justify-content: space-between; /* Zorgt voor gelijke ruimte tussen de knoppen */
+  display: flex; 
   align-items: center;
 }
 
@@ -70,10 +69,6 @@ main {
   width: 10rem;
   border-radius: 15px;
   border: 0px;
-}
-
-.option-btn {
-  margin: 0 5px; /* Voegt 10px marge toe aan de linker- en rechterkant van elke knop */
 }
 
 .about {
