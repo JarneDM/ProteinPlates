@@ -2,6 +2,7 @@ body {
   background-color: black;
   color: white;
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav{
@@ -83,13 +84,14 @@ main {
 
 .buttons button:hover{
   border: 2px solid white;
+  color: white;
   transform: translateY(-1rem);
   transition-duration: 250ms;
 }
 
 .second{
-  background-color: goldenrod;
-  color: black;
+  background-color: rgb(0, 0, 0);
+  color: rgba(220, 213, 0, 0.718);
   width: 100%;
   display: flex;
   justify-content: center;
