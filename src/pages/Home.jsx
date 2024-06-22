@@ -1,13 +1,25 @@
 import React from 'react'
 import NavBar from './NavBar'
-import '../App.css'
+import './Home.css'
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
     <div>
       <div className="content">
         <img className='big-logo' src="src\assets\PP-logo.png" alt="logo" />
-        <p>Under Development...</p>
+        <div className='options'>
+          <Link>
+            <button className='button bulk-btn'>Bulk</button>
+          </Link>
+          <Link>
+            <button className='button snacks-btn'>Snacks</button>
+          </Link>
+          <Link>
+            <button className='button cut-btn'>Cut</button>
+          </Link>
+          
+        </div>
       </div>
     </div>
   )

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../assets/PP-logo-S.png'
-import '../App.css'
+import './NavBar.css'
 
 function NavBar() {
   return (

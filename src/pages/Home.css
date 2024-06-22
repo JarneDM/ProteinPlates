@@ -1,0 +1,26 @@
+.options {
+  text-align: center; 
+  height: 15rem;
+  width: 100%;
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button{
+  font-weight: bold;
+  height: 3.5rem;
+  width: 10rem;
+  border-radius: 15px;
+  border: 0px;
+  background-color: rgba(234, 174, 23, 0.621);
+  color: black;
+  transition-duration: 250ms;
+}
+
+.button:hover{
+  border: 2px solid white;
+  color: white;
+  transform: translateY(-1rem);
+  transition-duration: 250ms;
+}
