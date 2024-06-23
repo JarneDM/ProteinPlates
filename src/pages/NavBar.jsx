@@ -8,18 +8,21 @@ function NavBar() {
     <nav className="nav-bar">
       <ul>
         <li id="logo">
-          <Link to="/">
+          <Link to={"/"}>
             <img src={logo} height="15px" alt="sentence logo" />
           </Link>
         </li>
         <li>
-          <Link to="/pages/Bulk">Bulk</Link>
+          <Link to={"/pages/About"}>About</Link>
         </li>
         <li>
-          <Link to="/pages/Snacks">Snacks</Link>
+          <Link to={"/pages/Bulk"}>Bulk</Link>
         </li>
         <li>
-          <Link to="/pages/Cut">Cut</Link>
+          <Link to={"/pages/Snacks"}>Snacks</Link>
+        </li>
+        <li>
+          <Link to={"/pages/Cut"}>Cut</Link>
         </li>
       </ul>
     </nav>
