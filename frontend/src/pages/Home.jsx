@@ -7,7 +7,7 @@ function Home() {
   return (
     <div>
       <div className="content">
-        <img className='big-logo' src="src\assets\PP-logo.png" alt="logo" />
+        <img className='big-logo' src="frontend/src/assets/PP-logo.png" alt="logo" />
         <div className='options'>
           <Link to={"/pages/Bulk"}>
             <button className='button bulk-btn'>Bulk</button>
