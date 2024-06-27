@@ -1,0 +1,11 @@
+{
+  "bulking" : [
+    {"id": 1, "name": "Chicken and Rice"}
+  ], 
+  "cutting" : [
+    {"id": 1, "name": "Tuna and Scrambled Eggs"}
+  ], 
+  "snacks": [
+    {"id": 1, "name": "Skyrr Yoghurt"}
+  ]
+}
