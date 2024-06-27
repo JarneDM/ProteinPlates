@@ -1,11 +1,25 @@
 {
-  "bulking" : [
-    {"id": 1, "name": "Chicken and Rice"}
-  ], 
-  "cutting" : [
-    {"id": 1, "name": "Tuna and Scrambled Eggs"}
+  "bulk" : [
+    {
+      "id": 1, 
+      "name": "Chicken and Rice", 
+      "ingredients": ["2 chicken breasts", "1 cup rice", "1 cup broccoli"],
+      "instructions": ["Cook the rice as per instructions.", "Grill the chicken.", "Steam the broccoli."],
+      "nutrition": {
+        "calories": 500,
+        "protein": "40g",
+        "carbs": "60g",
+        "fat": "10g"
+      },
+      "prepTime": "10 mins",
+      "cookTime": "20 mins",
+      "totalTime": "30 mins",
+      "servings": 2}
   ], 
   "snacks": [
     {"id": 1, "name": "Skyrr Yoghurt"}
+  ],
+  "cut" : [
+    {"id": 1, "name": "Tuna and Scrambled Eggs"}
   ]
 }

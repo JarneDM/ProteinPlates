@@ -16,10 +16,10 @@ function App() {
           <NavBar />
           <Routes>
             <Route exact path='/' element={<Home />} />
-            <Route path='/pages/About' element={<About />} />
-            <Route path='/pages/Bulk' element={<Bulk />} />
-            <Route path='/pages/Snacks' element={<Snacks />} />
-            <Route path='/pages/Cut' element={<Cut />} />
+            <Route path='/pages/about' element={<About />} />
+            <Route path='/pages/bulk' element={<Bulk />} />
+            <Route path='/pages/snacks' element={<Snacks />} />
+            <Route path='/pages/cut' element={<Cut />} />
           </Routes>
         </Router>
       </div>

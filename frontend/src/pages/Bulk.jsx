@@ -1,9 +1,9 @@
 import React from 'react'
 
 function Bulk() {
-  return (
+  return(
     <div>
-      Bulk
+      bulk
     </div>
   )
 }

@@ -13,16 +13,16 @@ function NavBar() {
           </Link>
         </li>
         <li>
-          <Link to={"/pages/About"}>About</Link>
+          <Link to={"/pages/about"}>About</Link>
         </li>
         <li>
-          <Link to={"/pages/Bulk"}>Bulk</Link>
+          <Link to={"/pages/bulk"}>Bulk</Link>
         </li>
         <li>
-          <Link to={"/pages/Snacks"}>Snacks</Link>
+          <Link to={"/pages/snacks"}>Snacks</Link>
         </li>
         <li>
-          <Link to={"/pages/Cut"}>Cut</Link>
+          <Link to={"/pages/cut"}>Cut</Link>
         </li>
       </ul>
     </nav>
