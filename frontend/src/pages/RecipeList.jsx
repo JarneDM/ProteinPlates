@@ -1,4 +1,3 @@
-// frontend/src/components/RecipeList.js
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -18,7 +17,7 @@ const RecipeList = ({ category }) => {
         {recipes.map(recipe => (
           <li key={recipe.id}>
             <h2>{recipe.name}</h2>
-            <p>{recipe.instructions[0]}</p> {/* Show the first instruction as a preview */}
+            <p>{recipe.instructions[0]}</p>
             <Link to={`/recipes/${category}/${recipe.id}`}>Read More</Link>
           </li>
         ))}
