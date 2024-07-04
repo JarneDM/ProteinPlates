@@ -1,0 +1,47 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bulk{
+  max-width: 600px;
+  border: 1px solid red;
+  padding: 5px;
+}
+
+.recipe{
+  border: 1px solid blue;
+  margin: 5px;
+  padding: 5px;
+}
+
+.title {
+  text-align: center;
+}
+
+.rList{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  list-style: none; 
+}
+
+.ingList{
+  display: grid;
+  list-style-type: disc;
+}
+
+.iList{
+  display: grid;
+}
+
+.bulk ul{
+  background-color: white;
+}
+
+.nList{
+  list-style-type: disc;
+  /* padding: 5px; */
+  display: grid;
+}

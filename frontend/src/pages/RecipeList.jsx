@@ -1,24 +1,26 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 
 const RecipeList = ({ category }) => {
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/pages/${category}`)
+    fetch(`http://localhost:5000/api/recipes/${category}`)
       .then(response => response.json())
-      .then(data => setRecipes(data));
+      .then(data => setRecipes(data))
+      .catch(error => console.error('Error fetching recipes:', error));
   }, [category]);
 
   return (
     <div>
-      <h1>{category.charAt(0).toUpperCase() + category.slice(1)} Recipes</h1>
+      <h2>{category.toUpperCase()} Recipes</h2>
       <ul>
         {recipes.map(recipe => (
           <li key={recipe.id}>
-            <h2>{recipe.name}</h2>
-            <p>{recipe.instructions[0]}</p>
-            <Link to={`/recipes/${category}/${recipe.id}`}>Read More</Link>
+            <h3>{recipe.name}</h3>
+            <p>{recipe.instructions}</p>
+            <p>Time: {recipe.time}</p>
+            <p>Ingredients: {recipe.ingredients.join(', ')}</p>
+            {recipe.picture && <img src={recipe.picture} alt={recipe.name} />}
           </li>
         ))}
       </ul>

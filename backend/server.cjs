@@ -8,7 +8,7 @@ const port = 5000;
 app.use(cors());
 app.use(express.json());
 
-app.get('/pages/:category', (req, res) => {
+app.get('/api/recipes/:category', (req, res) => {
   const category = req.params.category;
   if (recipes[category]) {
     res.json(recipes[category]);
