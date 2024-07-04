@@ -14,12 +14,132 @@
       "prepTime": "10 mins",
       "cookTime": "20 mins",
       "totalTime": "30 mins",
-      "servings": 2}
+      "servings": 2
+    }, 
+    {
+      "id" : 2,
+      "name": "Grilled Cheese",
+      "ingredients": ["2 slices of bread", "2 slices of full fat cheddar cheese", "2 tablespoons of butter", "2 slices of ham"],
+      "instructions": [
+        "Lay the bread slices on a clean surface.",
+        "Place the cheese slices on one piece of bread. Ensure the cheese covers the entire slice.",
+        "If using, place avocado slices and ham on top of the cheese.",
+        "Spread a generous layer of butter on one side of each slice of bread. The buttered sides will be on the outside to help create a golden, crispy crust.",
+        "Place the non-buttered side of the cheese-topped bread slice onto the buttered side of the other bread slice, forming a sandwich with the buttered sides facing outwards.",
+        "Place a skillet or frying pan on the stove over medium heat. Allow it to heat up for a minute or two.",
+        "Place the assembled sandwich in the hot skillet. Cook for about 3-4 minutes on one side, or until the bread is golden brown and the cheese starts to melt.",
+        "Carefully flip the sandwich using a spatula and cook for another 3-4 minutes on the other side, until the bread is golden brown and the cheese is fully melted.",
+        "Remove the grilled cheese from the skillet and let it cool for a minute.",
+        "Slice in half if desired and enjoy your warm, melty grilled cheese sandwich."
+      ], 
+      "nutrition": {
+        "calories": 700,
+        "protein": "30g",
+        "carbs": "50g",
+        "fat": "40g"
+      },
+      "prepTime": "3 mins",
+      "cookTime": "7 mins",
+      "totalTime": "10 mins"
+    }
   ], 
   "snacks": [
-    {"id": 1, "name": "Skyrr Yoghurt"}
+    {
+      "id": 1, "name": "Skyrr Yoghurt"
+    },
+    {
+      "id": 2,
+      "name": "Greek Yogurt with Berries",
+      "ingredients": [
+          "1 cup non-fat Greek yogurt",
+          "1/2 cup mixed berries (strawberries, blueberries, raspberries)",
+          "1 tablespoon chia seeds"
+      ],
+      "instructions": [
+          "Place the Greek yogurt in a bowl.",
+          "Top with mixed berries.",
+          "Sprinkle chia seeds over the top.",
+          "Enjoy immediately as a refreshing, high-protein snack."
+      ],
+      "nutrition": {
+          "calories": 150,
+          "protein": "20g",
+          "carbs": "18g",
+          "fat": "2g"
+      },
+      "prepTime": "5 mins",
+      "totalTime": "5 mins",
+      "label": "cutting"
+  },
+  {
+    "id": 3,
+    "name": "Peanut Butter Banana Protein Smoothie",
+    "ingredients": [
+        "1 banana",
+        "2 tablespoons peanut butter",
+        "1 scoop protein powder (vanilla or chocolate)",
+        "1 cup milk (whole or almond milk)",
+        "1/2 cup Greek yogurt",
+        "Ice cubes (optional)"
+    ],
+    "instructions": [
+        "Place the banana, peanut butter, protein powder, milk, and Greek yogurt in a blender.",
+        "Blend until smooth and creamy.",
+        "Add ice cubes if desired and blend again until smooth.",
+        "Pour into a glass and enjoy your high-protein, calorie-dense smoothie."
+    ],
+    "nutrition": {
+        "calories": 450,
+        "protein": "30g",
+        "carbs": "45g",
+        "fat": "18g"
+    },
+    "prepTime": "5 mins",
+    "totalTime": "5 mins",
+    "label": "bulking"
+}
+
+  
   ],
   "cut" : [
-    {"id": 1, "name": "Tuna and Scrambled Eggs"}
+    {
+      "id": 1, "name": "Tuna and Scrambled Eggs"
+    },
+    {
+      "id": 2,
+      "name": "Grilled Chicken Salad",
+      "ingredients": [
+        "200g boneless, skinless chicken breast",
+        "1 tablespoon olive oil",
+        "1 teaspoon garlic powder",
+        "1 teaspoon paprika",
+        "Salt and pepper to taste",
+        "4 cups mixed greens (lettuce, spinach, arugula)",
+        "1/2 cucumber, sliced",
+        "1/2 bell pepper, sliced",
+        "1/4 red onion, thinly sliced",
+        "1/4 cup cherry tomatoes, halved",
+        "2 tablespoons balsamic vinaigrette"
+      ],
+      "instructions": [
+        "Preheat the grill to medium-high heat.",
+        "Rub the chicken breast with olive oil, garlic powder, paprika, salt, and pepper.",
+        "Grill the chicken for 6-7 minutes on each side or until fully cooked and no longer pink inside.",
+        "Remove the chicken from the grill and let it rest for a few minutes before slicing it into thin strips.",
+        "In a large bowl, combine the mixed greens, cucumber, bell pepper, red onion, and cherry tomatoes.",
+        "Top the salad with the grilled chicken strips.",
+        "Drizzle the balsamic vinaigrette over the salad and toss to combine.",
+        "Serve immediately and enjoy your high-protein, low-calorie meal."
+      ],
+      "nutrition": {
+        "calories": 350,
+        "protein": "35g",
+        "carbs": "12g",
+        "fat": "18g"
+      },
+      "prepTime": "10 mins",
+      "cookTime": "15 mins",
+      "totalTime": "25 mins"
+    }
   ]
 }
