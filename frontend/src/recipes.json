@@ -45,7 +45,20 @@
   ], 
   "snacks": [
     {
-      "id": 1, "name": "Skyrr Yoghurt"
+      "id": 1, "name": "Skyrr Yoghurt",
+      "ingredients": [
+        "500 gr of Skyrr Yoghurt"
+      ],
+      "instructions":[
+        "Just eat it.."
+      ],
+      "nutrition":{
+        "calories":310,
+        "protein":"55g",
+        "carbs":"20g",
+        "fat":"2.5g"
+      },
+      "totalTime":"/"
     },
     {
       "id": 2,
@@ -73,7 +86,7 @@
   },
   {
     "id": 3,
-    "name": "Peanut Butter Banana Protein Smoothie",
+    "name": "PB & Banana Protein Smoothie",
     "ingredients": [
         "1 banana",
         "2 tablespoons peanut butter",

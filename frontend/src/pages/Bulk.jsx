@@ -1,7 +1,7 @@
 import React from 'react';
 // import RecipeList from './RecipeList'; // Adjust the path as per your project structure
 import recipes from "../recipes.json";
-import "./Bulk.css"
+import "./Recipe.css"
 
 const Bulk = () => {
   // Extracting recipes from the 'bulk' category
@@ -9,7 +9,7 @@ const Bulk = () => {
 
   return (
     <div className="container">
-      <div className='bulk'>
+      <div className='categ'>
         <h1 className='title'>Bulking Recipes</h1>
         <ul className='rList'>
           {bulkRecipes.map(recipe => (
