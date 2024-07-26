@@ -6,16 +6,20 @@
 
 .categ ul{background-color: white;}
 
-.categ{
+
+.categ {
   max-width: 600px;
-  /* border: 1px solid red; */
+  width: 100%;
   padding: 5px;
 }
 
 .recipe{
-  border: 1px solid blue;
+  border: 2px solid black;
   margin: 5px;
   padding: 5px;
+  border-radius: 10px;
+  background-color: bisque;
+  padding-left: 1rem;
 }
 
 .title {
@@ -27,6 +31,16 @@
   justify-content: center;
   align-items: center;
   list-style: none; 
+}
+
+.rName{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.categ p{
+  font-weight: bold;
+  margin-bottom: 0px;
 }
 
 .ingList{
