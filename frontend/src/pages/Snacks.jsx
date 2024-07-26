@@ -12,6 +12,7 @@ function Snacks() {
           {snackRecipes.map(recipe => (
             <li className='recipe' key={recipe.id}>
               <h3 className='rName'>{recipe.name}</h3>
+              <p className='ingName'>Ingredients:</p>
               <ol className='ingList'>
               {recipe.ingredients && recipe.ingredients.map((ingredient, index) => (
                 <li className='ingredient' key={index}>{ingredient}</li>
