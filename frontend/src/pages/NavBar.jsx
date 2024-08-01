@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../assets/PP-logo-S.png'
+import AddLogo from "../assets/addWhite.png"
 import './NavBar.css'
 
 function NavBar() {
@@ -23,6 +24,11 @@ function NavBar() {
         </li>
         <li>
           <Link to={"/pages/cut"}>Cut</Link>
+        </li>
+        <li>
+          <Link to={"/pages/AddRecipe"}>
+            <img className='addlogo' src={AddLogo} alt="Add" />
+          </Link>
         </li>
       </ul>
     </nav>
