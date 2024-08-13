@@ -41,6 +41,110 @@
       "prepTime": "3 mins",
       "cookTime": "7 mins",
       "totalTime": "10 mins"
+    },
+    {
+      "id" : 2,
+      "name": "Grilled Cheese",
+      "ingredients": ["2 slices of bread", "2 slices of full fat cheddar cheese", "2 tablespoons of butter", "2 slices of ham"],
+      "instructions": [
+        "Lay the bread slices on a clean surface.",
+        "Place the cheese slices on one piece of bread. Ensure the cheese covers the entire slice.",
+        "If using, place avocado slices and ham on top of the cheese.",
+        "Spread a generous layer of butter on one side of each slice of bread. The buttered sides will be on the outside to help create a golden, crispy crust.",
+        "Place the non-buttered side of the cheese-topped bread slice onto the buttered side of the other bread slice, forming a sandwich with the buttered sides facing outwards.",
+        "Place a skillet or frying pan on the stove over medium heat. Allow it to heat up for a minute or two.",
+        "Place the assembled sandwich in the hot skillet. Cook for about 3-4 minutes on one side, or until the bread is golden brown and the cheese starts to melt.",
+        "Carefully flip the sandwich using a spatula and cook for another 3-4 minutes on the other side, until the bread is golden brown and the cheese is fully melted.",
+        "Remove the grilled cheese from the skillet and let it cool for a minute.",
+        "Slice in half if desired and enjoy your warm, melty grilled cheese sandwich."
+      ], 
+      "nutrition": {
+        "calories": 700,
+        "protein": "30g",
+        "carbs": "50g",
+        "fat": "40g"
+      },
+      "prepTime": "3 mins",
+      "cookTime": "7 mins",
+      "totalTime": "10 mins"
+    },
+    {
+      "id" : 3,
+      "name": "Grilled Cheese",
+      "ingredients": ["2 slices of bread", "2 slices of full fat cheddar cheese", "2 tablespoons of butter", "2 slices of ham"],
+      "instructions": [
+        "Lay the bread slices on a clean surface.",
+        "Place the cheese slices on one piece of bread. Ensure the cheese covers the entire slice.",
+        "If using, place avocado slices and ham on top of the cheese.",
+        "Spread a generous layer of butter on one side of each slice of bread. The buttered sides will be on the outside to help create a golden, crispy crust.",
+        "Place the non-buttered side of the cheese-topped bread slice onto the buttered side of the other bread slice, forming a sandwich with the buttered sides facing outwards.",
+        "Place a skillet or frying pan on the stove over medium heat. Allow it to heat up for a minute or two.",
+        "Place the assembled sandwich in the hot skillet. Cook for about 3-4 minutes on one side, or until the bread is golden brown and the cheese starts to melt.",
+        "Carefully flip the sandwich using a spatula and cook for another 3-4 minutes on the other side, until the bread is golden brown and the cheese is fully melted.",
+        "Remove the grilled cheese from the skillet and let it cool for a minute.",
+        "Slice in half if desired and enjoy your warm, melty grilled cheese sandwich."
+      ], 
+      "nutrition": {
+        "calories": 700,
+        "protein": "30g",
+        "carbs": "50g",
+        "fat": "40g"
+      },
+      "prepTime": "3 mins",
+      "cookTime": "7 mins",
+      "totalTime": "10 mins"
+    },
+    {
+      "id" : 4,
+      "name": "Grilled Cheese",
+      "ingredients": ["2 slices of bread", "2 slices of full fat cheddar cheese", "2 tablespoons of butter", "2 slices of ham"],
+      "instructions": [
+        "Lay the bread slices on a clean surface.",
+        "Place the cheese slices on one piece of bread. Ensure the cheese covers the entire slice.",
+        "If using, place avocado slices and ham on top of the cheese.",
+        "Spread a generous layer of butter on one side of each slice of bread. The buttered sides will be on the outside to help create a golden, crispy crust.",
+        "Place the non-buttered side of the cheese-topped bread slice onto the buttered side of the other bread slice, forming a sandwich with the buttered sides facing outwards.",
+        "Place a skillet or frying pan on the stove over medium heat. Allow it to heat up for a minute or two.",
+        "Place the assembled sandwich in the hot skillet. Cook for about 3-4 minutes on one side, or until the bread is golden brown and the cheese starts to melt.",
+        "Carefully flip the sandwich using a spatula and cook for another 3-4 minutes on the other side, until the bread is golden brown and the cheese is fully melted.",
+        "Remove the grilled cheese from the skillet and let it cool for a minute.",
+        "Slice in half if desired and enjoy your warm, melty grilled cheese sandwich."
+      ], 
+      "nutrition": {
+        "calories": 700,
+        "protein": "30g",
+        "carbs": "50g",
+        "fat": "40g"
+      },
+      "prepTime": "3 mins",
+      "cookTime": "7 mins",
+      "totalTime": "10 mins"
+    },
+    {
+      "id" : 5,
+      "name": "Grilled Cheese",
+      "ingredients": ["2 slices of bread", "2 slices of full fat cheddar cheese", "2 tablespoons of butter", "2 slices of ham"],
+      "instructions": [
+        "Lay the bread slices on a clean surface.",
+        "Place the cheese slices on one piece of bread. Ensure the cheese covers the entire slice.",
+        "If using, place avocado slices and ham on top of the cheese.",
+        "Spread a generous layer of butter on one side of each slice of bread. The buttered sides will be on the outside to help create a golden, crispy crust.",
+        "Place the non-buttered side of the cheese-topped bread slice onto the buttered side of the other bread slice, forming a sandwich with the buttered sides facing outwards.",
+        "Place a skillet or frying pan on the stove over medium heat. Allow it to heat up for a minute or two.",
+        "Place the assembled sandwich in the hot skillet. Cook for about 3-4 minutes on one side, or until the bread is golden brown and the cheese starts to melt.",
+        "Carefully flip the sandwich using a spatula and cook for another 3-4 minutes on the other side, until the bread is golden brown and the cheese is fully melted.",
+        "Remove the grilled cheese from the skillet and let it cool for a minute.",
+        "Slice in half if desired and enjoy your warm, melty grilled cheese sandwich."
+      ], 
+      "nutrition": {
+        "calories": 700,
+        "protein": "30g",
+        "carbs": "50g",
+        "fat": "40g"
+      },
+      "prepTime": "3 mins",
+      "cookTime": "7 mins",
+      "totalTime": "10 mins"
     }
   ], 
   "snacks": [
