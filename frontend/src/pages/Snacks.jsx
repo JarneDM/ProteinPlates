@@ -4,27 +4,15 @@ import "./Recipe.css"
 
 function Snacks() {
   const snackRecipes = recipes.snacks;
+  
   return (
     <div className="container">
       <div className='categ'>
-        <h1 className='title'>Snack Recipes</h1>
+      <h1 className='title'>Snacks</h1>
         <ul className='rList'>
           {snackRecipes.map(recipe => (
             <li className='recipe' key={recipe.id}>
               <h3 className='rName'>{recipe.name}</h3>
-              <p className='ingName'>Ingredients:</p>
-              <ol className='ingList'>
-              {recipe.ingredients && recipe.ingredients.map((ingredient, index) => (
-                <li className='ingredient' key={index}>{ingredient}</li>
-              ))}
-              </ol>
-              <p className='iTitle'>Instructions:</p>
-              <ol className='iList'>
-                {recipe.instructions && recipe.instructions.map((step, index) => (
-                  <li className='instructions' key={index}>{step}</li>
-                ))}
-              </ol>
-              <p className='time'>Time: {recipe.totalTime}</p>
               
               {/* Optionally display nutrition info */}
               {recipe.nutrition && (
@@ -38,6 +26,7 @@ function Snacks() {
                   </ol>
                 </div>
               )}
+              <p className='time'>Time: {recipe.totalTime}</p>
             </li>
           ))}
         </ul>
