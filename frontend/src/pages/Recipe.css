@@ -2,15 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%; 
-  padding-left: 5%;
-  padding-right: 5%;
+  width: min-content; 
 }
 
 .categ ul{background-color: white;}
 
 .categ {
-  /* max-width: 600px; */
+  max-width: 1000px;
   width: 100%;
   padding: 5px;
 }
@@ -18,10 +16,11 @@
 .rList {
   display: flex;
   flex-wrap: wrap; 
-  gap: 10px; 
-  justify-content: flex-start;
+  gap: 5px; 
+  /* justify-content: flex-start; */
   align-items: flex-start;
   padding: 0;
+  width: 100%;
 }
 
 .recipe {
