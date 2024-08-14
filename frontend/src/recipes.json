@@ -149,20 +149,36 @@
   ], 
   "snacks": [
     {
-      "id": 1, "name": "Skyrr Yoghurt",
+      "id": 1, "name": "Skyrr, Oats & Sprinkles",
       "ingredients": [
-        "500 gr of Skyrr Yoghurt"
+        "500 gr of Skyrr Yoghurt",
+        "2 little scoops (+- 10gr) of flavour powder",
+        "50gr of oats",
+        "20gr of pure chocolate sprinkles",
+        "1 banana",
+        "1 kiwi",
+        "Or some other fruits of your choice!"
       ],
       "instructions":[
-        "Just eat it.."
+        "Add the Skyrr to a soup bowl or just a big boul",
+        "Next add the flavour powder to the bowl",
+        "Now mix the powder and the skyrr until the skyrr has fully changed to the color of the powder.",
+        "Now add 50 grams of oats to the bowl.",
+        "After this add the sprinkles and the fruits of your choice.",
+        "Now mix all of this together and enjoy!"
+      ],
+      "tips":[
+        "You can add some more oats or/and sprinkles for more calories if you are bulking",
+        "You could also add some peanut butter to it if you are bulking!"
       ],
       "nutrition":{
-        "calories":310,
-        "protein":"55g",
-        "carbs":"20g",
-        "fat":"2.5g"
+        "calories":720,
+        "protein":"65g",
+        "carbs":"90g",
+        "fat":"10g"
       },
-      "totalTime":"/"
+      "totalTime":"5 mins",
+      "label": "both"
     },
     {
       "id": 2,
