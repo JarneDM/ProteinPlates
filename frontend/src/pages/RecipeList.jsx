@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 const RecipeList = ({ category }) => {
   const [recipes, setRecipes] = useState([]);
 
+  {/* i don't even know why i wrote this because i'm not using it atm???? */}
   useEffect(() => {
     fetch(`http://localhost:5000/api/recipes/${category}`)
       .then(response => response.json())

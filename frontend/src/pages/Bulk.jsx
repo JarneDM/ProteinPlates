@@ -11,12 +11,13 @@ const Bulk = () => {
     <div className="container">
       <div className='categ'>
       <h1 className='title'>Bulking Recipes</h1>
+      {/* rendering list with recipes */}
         <ul className='rList'>
           {bulkRecipes.map(recipe => (
             <li className='recipe' key={recipe.id}>
               <h3 className='rName'>{recipe.name}</h3>
               
-              {/* Optionally display nutrition info */}
+              {/* optionally display nutrition info */}
               {recipe.nutrition && (
                 <div className='dNutr'>
                   <p className='nTitle'>Nutrition:</p>
