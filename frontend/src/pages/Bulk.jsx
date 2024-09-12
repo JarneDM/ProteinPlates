@@ -2,6 +2,7 @@ import React from 'react';
 // import RecipeList from './RecipeList'; // Adjust the path as per your project structure
 import recipes from "../recipes.json";
 import "./Recipe.css"
+import { Link } from 'react-router-dom'
 
 const Bulk = () => {
   // Extracting recipes from the 'bulk' category
@@ -13,6 +14,7 @@ const Bulk = () => {
       <h1 className='title'>Bulking Recipes</h1>
       {/* rendering list with recipes */}
         <ul className='rList'>
+          <div className="recipe-card">
           {bulkRecipes.map(recipe => (
             <li className='recipe' key={recipe.id}>
               <h3 className='rName'>{recipe.name}</h3>
@@ -30,8 +32,12 @@ const Bulk = () => {
                 </div>
               )}
               <p className='time'>Time: {recipe.totalTime}</p>
+              <Link to={"/pages/RecipePage"}>
+                <button className='goto-btn'>View..</button>
+              </Link>
             </li>
           ))}
+          </div>
         </ul>
       </div>
     </div>
