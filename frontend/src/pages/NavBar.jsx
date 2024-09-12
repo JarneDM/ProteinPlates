@@ -9,24 +9,24 @@ function NavBar() {
     <nav className="nav-bar">
       <ul>
         <li id="logo">
-          <Link to={"/"}>
+          <Link className='nav-el' to={"/"}>
             <img src={logo} height="15px" alt="sentence logo" />
           </Link>
         </li>
         <li>
-          <Link to={"/pages/about"}>About</Link>
+          <Link className='nav-el' to={"/pages/about"}>About</Link>
         </li>
         <li>
-          <Link to={"/pages/bulk"}>Bulk</Link>
+          <Link className='nav-el' to={"/pages/bulk"}>Bulk</Link>
         </li>
         <li>
-          <Link to={"/pages/snacks"}>Snacks</Link>
+          <Link className='nav-el' to={"/pages/snacks"}>Snacks</Link>
         </li>
         <li>
-          <Link to={"/pages/cut"}>Cut</Link>
+          <Link className='nav-el' to={"/pages/cut"}>Cut</Link>
         </li>
         <li>
-          <Link to={"/pages/AddRecipe"}>
+          <Link className='nav-el' to={"/pages/AddRecipe"}>
             <img className='addlogo' src={AddLogo} alt="Add" />
           </Link>
         </li>

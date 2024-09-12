@@ -77,5 +77,13 @@
   font-weight: bold;
   position: absolute;
   bottom: 10px;
-  right: 10px; 
+  right: 10px;
+  transition: 0.2s; 
+}
+
+.goto-btn:hover{
+  background-color: none;
+  cursor: pointer;
+  transform: translateY(-.3rem);
+  transition: 0.2s;
 }

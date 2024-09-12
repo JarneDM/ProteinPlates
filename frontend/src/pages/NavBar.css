@@ -22,7 +22,7 @@ li {
   float: left;
 }
 
-li a {
+.nav-el {
   display: block;
   color: white;
   text-align: center;
@@ -36,7 +36,7 @@ li a {
   transition-duration: 0.2s;
 }
 
-li a:hover {
+.nav-el:hover {
   background-color: #d8a600b9;
   transition-duration: 0.2s;
 }
