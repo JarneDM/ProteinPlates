@@ -8,6 +8,7 @@ import Bulk from './pages/Bulk.jsx';
 import Snacks from './pages/Snacks.jsx';
 import Cut from './pages/Cut.jsx';
 import About from './pages/About.jsx';
+import RecipePage from './pages/RecipePage.jsx';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path='/pages/snacks' element={<Snacks />} />
             <Route path='/pages/cut' element={<Cut />} />
             <Route path='/pages/AddRecipe' element={<AddRecipe />} />
+            <Route path='/pages/RecipePage' element={<RecipePage />}/>
           </Routes>
         </Router>
       </div>

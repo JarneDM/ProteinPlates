@@ -10,12 +10,13 @@ function Cut() {
     <div className="container">
     <div className='categ'>
     <h1 className='title'>Cutting Recipes</h1>
+    {/* rendering list with recipes */}
       <ul className='rList'>
         {cutRecipes.map(recipe => (
           <li className='recipe' key={recipe.id}>
             <h3 className='rName'>{recipe.name}</h3>
             
-            {/* Optionally display nutrition info */}
+            {/* optionally display nutrition info */}
             {recipe.nutrition && (
               <div className='dNutr'>
                 <p className='nTitle'>Nutrition:</p>
